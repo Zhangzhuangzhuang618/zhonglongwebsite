@@ -1,0 +1,21 @@
+# Allow all search crawlers (including AI crawlers)
+User-agent: *
+Allow: /
+
+# OpenAI — ChatGPT Search / GPTBot
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+# Google — AI features (Bard / Gemini / SGE)
+User-agent: Google-Extended
+Allow: /
+
+# Common Crawl — training data for multiple AI models
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://www.pyzlrk.cn/sitemap.xml
+Sitemap: https://www.pyzlrk.cn/image-sitemap.xml

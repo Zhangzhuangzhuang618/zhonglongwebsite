@@ -1,0 +1,15 @@
+# 中龙燃控 - 钉钉留言代理 Worker
+# 部署命令: npx wrangler deploy
+# 设置 Secret:
+#   npx wrangler secret put DING_ACCESS_TOKEN
+#   npx wrangler secret put DING_SECRET
+
+name = "zhonglong-contact-proxy"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# 免费套餐足够：每天 10 万次请求
+# 留言表单流量远低于此限制
+
+[observability]
+enabled = true

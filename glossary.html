@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>火炬行业术语表 - 火炬点火系统专业词汇 | 中龙燃控</title>
+<meta name="description" content="火炬点火系统行业术语表：涵盖高架火炬、长明灯、文丘里引射、火雨、沿面放电、冷补、DCS'与'逻辑等专业词汇的中英文对照与技术释义，帮助工程师快速理解火炬系统技术文档。">
+<meta name="keywords" content="火炬术语,点火系统术语,火炬专业词汇,长明灯术语,防爆术语,石油化工术语">
+<link rel="canonical" href="https://www.pyzlrk.cn/glossary.html">
+<meta property="og:title" content="火炬行业术语表 | 专业词汇中英文对照与技术释义 | 中龙燃控">
+<meta property="og:description" content="火炬点火系统行业术语表：涵盖高架火炬、长明灯、文丘里引射等专业词汇的技术释义。">
+<meta property="og:image" content="https://www.pyzlrk.cn/images/logo.jpg">
+<meta property="og:url" content="https://www.pyzlrk.cn/glossary.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="中龙燃控">
+<meta property="og:locale" content="zh_CN">
+<link rel="alternate" hreflang="zh-CN" href="https://www.pyzlrk.cn/glossary.html">
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "DefinedTermSet",
+  "name": "火炬点火系统行业术语表",
+  "description": "濮阳中龙燃控整理的火炬点火系统行业专业术语中英文对照与技术释义",
+  "hasDefinedTerm": [
+    {"@type": "DefinedTerm", "name": "火炬（Flare）", "description": "用于燃烧石油化工装置排放的可燃气体或紧急事故状态下排放可燃气体的装置，是石油化工行业重要的安全和环保设施。分为高架火炬和地面火炬两大类。"},
+    {"@type": "DefinedTerm", "name": "高架火炬（Elevated Flare）", "description": "通过塔架将火炬头架设在高空的火炬系统，高度通常在60~150米。排放气体在高空燃烧，地面热辐射和噪声影响小。适用于大型炼化企业。"},
+    {"@type": "DefinedTerm", "name": "地面火炬（Ground Flare）", "description": "火炬头安装在地面围栏或封闭容器内的火炬系统。燃烧过程不直接暴露于外部视野，无可见火焰，噪声低。适用于LNG接收站和城市周边化工装置。"},
+    {"@type": "DefinedTerm", "name": "长明灯（Pilot Burner）", "description": "安装在火炬头顶部，持续燃烧的小火焰，作为火炬的常明火种。当有可燃气体排放时，长明灯立即引燃主火炬。是火炬系统最关键的持续运行部件。"},
+    {"@type": "DefinedTerm", "name": "文丘里引射（Venturi Ejector）", "description": "利用文丘里管原理，高速燃气流经缩径段时产生负压，自动吸入周围空气进行预混，提高燃烧效率。ZL-HBJ-I节能长明灯即采用此原理，耗气量可降至2.45Nm³/h。"},
+    {"@type": "DefinedTerm", "name": "火雨（Flame Rain）", "description": "火炬燃烧过程中，未完全燃烧的液滴或碳粒从火焰中滴落的现象。火雨对火炬下部设备和人员安全构成威胁，也反映了燃烧不完全的问题。"},
+    {"@type": "DefinedTerm", "name": "冷补（Cold Patch）", "description": "在高空对火炬筒体漏点进行不停产修补的施工工艺，采用特殊材料在常温下完成封堵，无需停产冷却。是高空火炬维修的核心技术之一。"},
+    {"@type": "DefinedTerm", "name": "沿面放电（Surface Discharge）", "description": "高压电流沿绝缘体表面爬电而非穿过绝缘体内部的现象。潮湿天气+工业粉尘在石英绝缘子表面形成导电膜导致沿面放电，造成点火能量不足。选用高纯石英（SiO₂≥99.9%）可有效抑制。"},
+    {"@type": "DefinedTerm", "name": "防爆等级 Exd（Explosion-proof Flameproof）", "description": "Exd为隔爆型防爆型式。设备外壳能承受内部爆炸压力而不损坏，并能阻止火焰蔓延到外部爆炸性环境。适用于1区和2区。ZLH-GY-I采用此设计（Exd IIC T4 Gb）。"},
+    {"@type": "DefinedTerm", "name": "防爆等级 Exe（Increased Safety）", "description": "Exe为增安型防爆型式。在正常运行条件下不会产生火花、电弧或危险温度的附加安全措施。仅适用于2区。ZLH-GY-I-II采用此设计（Exe IIT6）。"},
+    {"@type": "DefinedTerm", "name": "IP防护等级（Ingress Protection）", "description": "国际电工委员会（IEC）制定的外壳防护等级标准。第一位数字表示防尘等级（0-6），第二位数字表示防水等级（0-8）。IP54表示防尘5级+防水4级，IP65表示完全防尘+防喷水。"},
+    {"@type": "DefinedTerm", "name": "DCS（Distributed Control System）", "description": "分布式控制系统。石油化工装置的核心控制系统，对生产过程中的温度、压力、流量、液位等参数进行集中监控和分散控制。火炬系统通过DCS实现自动点火、火焰监测和联锁保护。"},
+    {"@type": "DefinedTerm", "name": "SIS/ESD（Safety Instrumented System）", "description": "安全仪表系统/紧急停车系统。独立于DCS的安全保护层，当工艺参数超出安全范围时自动触发紧急切断或安全动作。火炬系统的熄火联锁通常接入SIS。"},
+    {"@type": "DefinedTerm", "name": "与逻辑（AND Logic）", "description": "在DCS/SIS逻辑组态中，多个输入信号同时满足条件才输出动作的逻辑关系。火炬火焰确认通常采用紫外探测器开关量 + 热电偶温度信号的'与'逻辑，两者同时触发才判定有火，彻底消除误报。"},
+    {"@type": "DefinedTerm", "name": "4-20mA模拟量信号", "description": "工业自动化中最常用的模拟量传输标准。4mA对应量程下限，20mA对应量程上限。ZL-ZWTC紫外探测器通过4-20mA信号连续输出火焰强度值至DCS AI卡件。"},
+    {"@type": "DefinedTerm", "name": "开关量信号（Digital Signal）", "description": "仅有导通（ON）和断开（OFF）两种状态的信号。在火炬系统中，通常为继电器干接点输出，用于有火/无火状态判断，接入DCS DI卡件或直接参与联锁。"},
+    {"@type": "DefinedTerm", "name": "热电偶（Thermocouple）", "description": "基于热电效应测量温度的传感器。火炬系统使用K型（镍铬-镍硅）热电偶，直接插入长明灯火焰中测量温度（通过热电偶保护管隔离），通过温度信号判断火焰有无。310S不锈钢保护管耐温≥1250°C。"},
+    {"@type": "DefinedTerm", "name": "紫外火焰探测器（UV Flame Detector）", "description": "通过检测火焰中紫外光谱（185~260nm波段）来判断火焰有无的探测器。响应速度≤100ms，探测距离5~200m，适用于高架火炬远距离火焰监测。ZL-ZWTC为隔爆型设计（Exd II CT6 Gb）。"},
+    {"@type": "DefinedTerm", "name": "高纯石英（High-Purity Quartz）", "description": "SiO₂含量≥99.9%的石英材料。具有极低热膨胀系数（5.5×10⁻⁷/°C）、极高介电强度和优异耐高温性能（-50~1350°C），是火炬点火系统高压绝缘子的首选材料。陶瓷或普通玻璃无法替代。"},
+    {"@type": "DefinedTerm", "name": "环氧树脂胶封（Epoxy Encapsulation）", "description": "将电气元件用环氧树脂完全灌封的防护工艺。阻止潮气和腐蚀性气体侵入，提高电气绝缘性能和机械强度。ZLH-GY-I防爆高压发生器内部采用全环氧树脂胶封。"},
+    {"@type": "DefinedTerm", "name": "水封罐（Seal Drum）", "description": "火炬排放管线上利用水封阻止回火的设备。当排放气压力低于设定值时水封自动建立，防止空气倒流入火炬筒体形成爆炸性混合物。是火炬系统的关键安全设施。"},
+    {"@type": "DefinedTerm", "name": "阻火器（Flame Arrester）", "description": "安装在火炬排放管线上的防回火装置。利用细小通道（波纹板或金属丝网）的熄火效应，阻止火焰在管道中传播。通常和水封罐配合使用构成双重回火保护。"},
+    {"@type": "DefinedTerm", "name": "酸性气火炬（Sour Gas Flare）", "description": "专门用于燃烧含H₂S酸性气体的火炬。由于H₂S具有强腐蚀性和剧毒性，酸性气火炬的材质需选用耐腐蚀合金（如310S不锈钢、哈氏合金），且燃烧效率要求极高以确保H₂S完全转化为SO₂。"},
+    {"@type": "DefinedTerm", "name": "SH3009-2013", "description": "中国石油化工行业标准《石油化工可燃气体排放设计规范》，对火炬系统的设计、安装、运行提出技术要求。其中明确规定单支长明灯耗气量应控制在4Nm³/h以内。"},
+    {"@type": "DefinedTerm", "name": "310S不锈钢", "description": "奥氏体不锈钢，含Cr 24-26%、Ni 19-22%，具有优异的耐高温（持续使用温度可达1150°C）和抗氧化性能。ZL-JTS阶梯式高空点火器壳体采用310S+304S组合，兼顾耐温与成本。"},
+    {"@type": "DefinedTerm", "name": "304不锈钢", "description": "最常用的奥氏体不锈钢，含Cr 18-20%、Ni 8-10.5%，具有良好的耐腐蚀性和加工性能。ZLH-GY-I防爆高压发生器壳体采用304不锈钢，适用于常规工业环境。"},
+    {"@type": "DefinedTerm", "name": "Nm³/h（标准立方米每小时）", "description": "燃气流量的标准计量单位，指在标准状态（0°C、1个大气压）下每小时流过的气体体积（立方米）。火炬长明灯耗气量、燃料气流量均以此单位计量。"},
+    {"@type": "DefinedTerm", "name": "结焦（Coking）", "description": "烃类气体在高温下热裂解生成焦炭并沉积在设备表面的现象。长明灯喷口结焦会堵塞燃气通道，导致火焰变小甚至熄火。ZL-HBJ-I采用双配风设计，燃烧更完全，结焦速度远低于老式长明灯。"},
+    {"@type": "DefinedTerm", "name": "倒链（Chain Block）", "description": "手动环链葫芦的俗称，通过拉动环链带动链轮实现重物升降。火炬维修中使用1.5T倒链配合滑轮组进行火炬头部件的吊装和更换。"},
+    {"@type": "DefinedTerm", "name": "座板式单人吊具（Solo Suspension Rig）", "description": "高空作业人员通过座板悬挂在工作绳上进行作业的装备系统。火炬维修采用工作绳+生命绳+安全绳三重独立绳索保护，每根绳索独立锚固，确保作业人员安全。"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://www.pyzlrk.cn/"},
+    {"@type": "ListItem", "position": 2, "name": "术语表", "item": "https://www.pyzlrk.cn/glossary.html"}
+  ]
+}
+</script>
+</head>
+<body>
+<header>
+<nav class="nav" id="nav">
+  <div class="container">
+    <a href="index.html" class="nav-logo"><img src="images/logo.jpg" alt="中龙燃控Logo" width="44" height="44"><span>中龙燃控</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html">首页</a></li>
+      <li><a href="about.html">关于我们</a></li>
+      <li class="nav-dropdown">
+        <a href="products.html" class="dropdown-toggle">产品中心 <span class="dropdown-arrow">&#9662;</span></a>
+        <ul class="dropdown-menu">
+          <li><a href="products.html#igniter">高空点火器</a></li>
+          <li><a href="products.html#pilot">节能长明灯</a></li>
+          <li><a href="products.html#generator">防爆高压发生器</a></li>
+          <li><a href="products.html#ground">火焰探测器</a></li>
+          <li><a href="products.html#parts">绝缘子与配件</a></li>
+          <li><a href="products.html#custom">火炬系统定制</a></li>
+        </ul>
+      </li>
+      <li class="nav-dropdown">
+        <a href="cases.html" class="dropdown-toggle">工程案例 <span class="dropdown-arrow">&#9662;</span></a>
+        <ul class="dropdown-menu">
+          <li><a href="cases.html">石油化工</a></li>
+          <li><a href="cases.html">煤化工</a></li>
+          <li><a href="cases.html">电力 / 冶金</a></li>
+          <li><a href="cases.html">LNG / 化工</a></li>
+        </ul>
+      </li>
+      <li><a href="faq/index.html">技术知识库</a></li>
+      <li><a href="strength.html">技术实力</a></li>
+      <li><a href="service.html">服务承诺</a></li>
+      <li><a href="contact.html">联系我们</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="菜单">&#9776;</button>
+  </div>
+</nav>
+</header>
+
+<main>
+<section class="page-banner">
+  <div class="container">
+    <h1>火炬行业术语表</h1>
+    <p style="color:var(--gray-500);">30个核心专业术语 · 中英文对照 · 技术释义</p>
+    <div class="breadcrumb"><a href="index.html">首页</a> / 术语表</div>
+  </div>
+</section>
+
+<section>
+  <div class="container" style="max-width:900px;">
+
+    <div class="glossary-nav" style="margin-bottom:32px;padding:16px;background:var(--gray-50);border-radius:var(--radius);">
+      <strong>快速导航：</strong>
+      <a href="#system" style="margin:0 8px;">火炬系统</a> ·
+      <a href="#pilot" style="margin:0 8px;">长明灯与点火</a> ·
+      <a href="#explosion" style="margin:0 8px;">防爆与安全</a> ·
+      <a href="#control" style="margin:0 8px;">控制与仪表</a> ·
+      <a href="#material" style="margin:0 8px;">材料与工艺</a> ·
+      <a href="#standard" style="margin:0 8px;">标准与规范</a>
+    </div>
+
+    <!-- 火炬系统 -->
+    <h2 id="system">一、火炬系统</h2>
+    <div class="line" style="width:60px;height:3px;background:var(--accent);border-radius:2px;margin-bottom:24px;"></div>
+
+    <dl class="glossary-list">
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">火炬 <span style="color:var(--gray-500);font-weight:400;">Flare</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">用于燃烧石油化工装置排放的可燃气体或紧急事故状态下排放可燃气体的装置，是石油化工行业重要的安全和环保设施。分为高架火炬和地面火炬两大类。当装置正常启停、工艺波动或紧急事故时，无法回收的可燃气体通过火炬系统安全燃烧后排放，防止有毒或可燃气体直接排入大气。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">高架火炬 <span style="color:var(--gray-500);font-weight:400;">Elevated Flare</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">通过塔架将火炬头架设在高空的火炬系统，高度通常在60~150米。排放气体在高空燃烧，地面热辐射和噪声影响小。适用于处理量大的炼化企业。主要组成部分：塔架、筒体（排气管）、分子封/阻火器、火炬头（燃烧器）、长明灯、点火系统。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">地面火炬 <span style="color:var(--gray-500);font-weight:400;">Ground Flare</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">火炬头安装在地面围栏或封闭容器内的火炬系统。燃烧过程不直接暴露于外部视野，无可见火焰（"无烟无光"），噪声低，占地面积大。适用于LNG接收站、城市周边化工装置及环保要求高的场合。中龙燃控提供地面火炬配套的点火器和火焰探测器。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">酸性气火炬 <span style="color:var(--gray-500);font-weight:400;">Sour Gas Flare</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">专门用于燃烧含H₂S酸性气体的火炬。H₂S具有强腐蚀性和剧毒性，酸性气火炬的材质需选用耐腐蚀合金（如310S不锈钢、哈氏合金），且需保证燃烧效率≥99%以确保H₂S完全转化为SO₂。中龙燃控产品已在中国神华煤制油酸性气火炬上成功应用。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">水封罐 <span style="color:var(--gray-500);font-weight:400;">Seal Drum</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">火炬排放管线上利用水封阻止回火的设备。当排放气压力低于水封设定压力时水封自动建立，防止空气倒流入火炬筒体形成爆炸性混合物。是火炬系统的关键安全设施，通常与阻火器配合使用构成双重回火保护。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">阻火器 <span style="color:var(--gray-500);font-weight:400;">Flame Arrester</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">安装在火炬排放管线上的防回火装置。利用细小通道（波纹板或金属丝网）的"熄火效应"——火焰通过狭窄通道时热量被壁面迅速吸收，温度降至燃点以下而熄灭——阻止火焰在管道中传播。是防止回火爆炸的关键安全设备。</dd>
+      </div>
+    </dl>
+
+    <!-- 长明灯与点火 -->
+    <h2 id="pilot" style="margin-top:40px;">二、长明灯与点火系统</h2>
+    <div class="line" style="width:60px;height:3px;background:var(--accent);border-radius:2px;margin-bottom:24px;"></div>
+
+    <dl class="glossary-list">
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">长明灯 <span style="color:var(--gray-500);font-weight:400;">Pilot Burner</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">安装在火炬头顶部、持续燃烧的小火焰，作为火炬的常明火种。一旦有可燃气体排放，长明灯立即引燃主火炬。是火炬系统最关键且持续运行的部件，其可靠性直接决定火炬的安全功能。SH3009-2013规范要求单支长明灯耗气量应控制在4Nm³/h以内。中龙燃控ZL-HBJ-I经神华实测仅2.45Nm³/h。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">文丘里引射 <span style="color:var(--gray-500);font-weight:400;">Venturi Ejector</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">利用文丘里管原理——高速燃气流经缩径段（喉部）时产生负压，自动吸入周围空气进行预混——提高燃烧效率的技术。ZL-HBJ-I环保节能双配风混合长明灯采用此原理，燃气与空气在喷口前完成预混，火焰呈粉蓝色（完全燃烧特征），耗气量可从老式长明灯的37.65Nm³/h降至2.45Nm³/h，节能93.5%。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">高空点火器 <span style="color:var(--gray-500);font-weight:400;">High-Altitude Igniter</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">安装在火炬头顶部、用于产生高压电弧点燃长明灯或直接点燃排放气体的装置。由高压发生器（地面）通过高压裸线传输7.5KV电能至点火电极，电极间产生持续拉弧放电。ZL-JTS采用阶梯式火种传递方式，双路7.5KV冗余，关键部件避开最高温区，自洁能力强。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">高压发生器 <span style="color:var(--gray-500);font-weight:400;">High-Voltage Generator</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">将220VAC工频电源升压至7.5KV（或11KV）高压的装置，为高空点火器提供点火电能。安装在火炬底部地面。ZLH-GY-I型为隔爆型（Exd IIC T4 Gb），304不锈钢外壳，内部环氧树脂全胶封，三重保护（限压、限流、限温），防护等级IP54。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">点火电极 <span style="color:var(--gray-500);font-weight:400;">Ignition Electrode</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">高空点火器中产生高压电弧的金属电极对，间距标准2-3mm。7.5KV高压在电极间击穿空气产生电弧（温度可达3000°C以上），引燃燃料气。长期运行后电极会积碳，需定期打磨清洁。ZL-JTS采用循环移动拉弧放电设计，电弧沿电极表面移动，自洁能力强。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">火雨 <span style="color:var(--gray-500);font-weight:400;">Flame Rain</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">火炬燃烧过程中，未完全燃烧的液滴或碳粒从火焰中滴落的现象。火雨对火炬下部设备和人员安全构成严重威胁，也反映出燃烧不完全的问题。火雨环境下，火炬头部件（绝缘子、电极、高压裸线）面临高温+化学腐蚀+机械冲击三重考验，对材料要求极高。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">结焦 <span style="color:var(--gray-500);font-weight:400;">Coking</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">烃类气体在高温下热裂解生成焦炭并沉积在设备表面的现象。长明灯喷口结焦会堵塞燃气通道，导致火焰变小甚至熄火。老式长明灯因混合不均匀、燃烧不完全，结焦速度快。ZL-HBJ-I采用文丘里预混+双配风设计，燃烧更完全，结焦速度远低于老式长明灯。</dd>
+      </div>
+    </dl>
+
+    <!-- 防爆与安全 -->
+    <h2 id="explosion" style="margin-top:40px;">三、防爆与安全</h2>
+    <div class="line" style="width:60px;height:3px;background:var(--accent);border-radius:2px;margin-bottom:24px;"></div>
+
+    <dl class="glossary-list">
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">防爆标志 Exd IIC T4 Gb</dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">隔爆型防爆标志的含义：<strong>Ex</strong>=防爆产品；<strong>d</strong>=隔爆型（外壳承受内部爆炸）；<strong>IIC</strong>=适用于氢气、乙炔等最危险气体组别（含所有IIA、IIB组别气体）；<strong>T4</strong>=最高表面温度≤135°C；<strong>Gb</strong>=设备保护级别，适用于1区（正常运行时可能出现爆炸性环境）。ZLH-GY-I防爆高能发生器采用此设计。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">Exd 隔爆型 vs Exe 增安型</dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);"><strong>Exd隔爆型</strong>：外壳能承受内部爆炸压力而不损坏，能阻止火焰蔓延。适用于1区和2区。结构厚重，壳体为厚壁金属。ZLH-GY-I采用此设计。<br><strong>Exe增安型</strong>：正常运行时不会产生火花、电弧或危险温度。仅适用于2区。结构轻、成本低，但安全裕度不如隔爆型。石油化工火炬底部通常为1区，优先推荐Exd隔爆型。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">IP防护等级 <span style="color:var(--gray-500);font-weight:400;">Ingress Protection</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">IEC制定的外壳防护等级标准。第一位数字=防尘（0-6），第二位数字=防水（0-8）。<strong>IP54</strong>=防尘5级（有限灰尘进入不造成危害）+防水4级（任意方向溅水无有害影响），ZLH-GY-I标配。IP65=完全防尘+防喷水。IP66=完全防尘+防猛烈海浪。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">环氧树脂胶封 <span style="color:var(--gray-500);font-weight:400;">Epoxy Encapsulation</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">将电气元件用环氧树脂完全灌封的防护工艺。作用：(1)阻止潮气和腐蚀性气体侵入，(2)提高电气绝缘性能（防止内部放电），(3)增强机械强度和抗振性能。ZLH-GY-I防爆高压发生器内部全部采用环氧树脂胶封工艺，是隔爆型设备的重要安全保障。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">沿面放电 <span style="color:var(--gray-500);font-weight:400;">Surface Discharge / Creepage</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">高压电流沿绝缘体表面爬电而非穿透绝缘体内部的现象。在火炬点火系统中，潮湿天气+工业粉尘在石英绝缘子表面形成导电膜→高压电沿表面泄漏→点火能量不足→点火失败。对策：(1)选用高纯石英（SiO₂≥99.9%，表面致密度高），(2)定期清洁或更换绝缘子，(3)加大绝缘子爬电距离。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">冷补 <span style="color:var(--gray-500);font-weight:400;">Cold Patch Repair</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">在高空对火炬筒体漏点进行不停产修补的施工工艺。采用特殊高分子复合材料，在常温下（无需焊接加热）完成筒体腐蚀穿孔的封堵。优势：无需停产、无需动火、施工速度快（单点1-2小时）。是高空火炬维修的核心技术之一，也是中龙燃控的常规服务项目。</dd>
+      </div>
+    </dl>
+
+    <!-- 控制与仪表 -->
+    <h2 id="control" style="margin-top:40px;">四、控制与仪表</h2>
+    <div class="line" style="width:60px;height:3px;background:var(--accent);border-radius:2px;margin-bottom:24px;"></div>
+
+    <dl class="glossary-list">
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">DCS <span style="color:var(--gray-500);font-weight:400;">Distributed Control System</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">分布式控制系统。石油化工装置的核心控制系统，对生产过程中的温度、压力、流量、液位等参数进行集中监控和分散控制。火炬系统通过DCS实现自动点火指令下发、火焰状态监测、熄火报警和联锁保护。工程师在控制室通过DCS画面即可监视和操作火炬系统。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">SIS/ESD <span style="color:var(--gray-500);font-weight:400;">Safety Instrumented System / Emergency Shutdown</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">安全仪表系统/紧急停车系统。独立于DCS的安全保护层——当工艺参数超出安全范围时自动触发紧急切断或安全动作，其安全完整性等级（SIL）高于DCS。火炬系统的熄火联锁通常接入SIS：长明灯熄火→SIS触发→关闭燃料气紧急切断阀→防止可燃气体未经点燃直接排入大气。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">"与"逻辑 <span style="color:var(--gray-500);font-weight:400;">AND Logic</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">DCS/SIS逻辑组态中的基本逻辑运算——多个输入信号同时满足条件才输出动作。火炬火焰确认的推荐配置：<strong>紫外探测器开关量=ON 且 热电偶温度>400°C → 判定有火</strong>。紫外探测器响应快（≤100ms）但可能受闪电/电焊干扰误报，热电偶可靠但响应慢（秒级）。两者"与"逻辑结合：快且准，误报率趋近于零。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">4-20mA模拟量信号 <span style="color:var(--gray-500);font-weight:400;">4-20mA Analog Signal</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">工业自动化中最常用的模拟量传输标准。4mA=量程下限（0%），20mA=量程上限（100%）。采用4mA而非0mA作为下限的原因：(1)断线时可检测（0mA=断线故障）；(2)可为两线制变送器供电。ZL-ZWTC紫外探测器通过4-20mA信号连续输出火焰强度值至DCS AI卡件，可在控制室实时查看火焰大小趋势。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">热电偶 <span style="color:var(--gray-500);font-weight:400;">Thermocouple</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">基于热电效应（两种不同金属连接点温度差产生热电势）测量温度的传感器。火炬系统使用K型（镍铬-镍硅）热电偶，测温范围-200~1300°C。310S耐热不锈钢保护管直接插入长明灯火焰中，通过温度信号判断火焰有无（有火>400°C，无火<100°C）。热电偶信号通过温度变送器转换为4-20mA接入DCS。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">紫外火焰探测器 <span style="color:var(--gray-500);font-weight:400;">UV Flame Detector</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">通过检测火焰中紫外光谱（185~260nm波段）来判断火焰有无的光电探测器。响应速度极快（≤100ms），探测距离5~200m，适用于高架火炬远距离火焰监测。优点：响应快、探测远；缺点：闪电、电焊弧光等强紫外源可能干扰。ZL-ZWTC为隔爆型设计（Exd II CT6 Gb），双重信号输出（4-20mA+开关量）。</dd>
+      </div>
+    </dl>
+
+    <!-- 材料与工艺 -->
+    <h2 id="material" style="margin-top:40px;">五、材料与工艺</h2>
+    <div class="line" style="width:60px;height:3px;background:var(--accent);border-radius:2px;margin-bottom:24px;"></div>
+
+    <dl class="glossary-list">
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">高纯石英 <span style="color:var(--gray-500);font-weight:400;">High-Purity Quartz (SiO₂≥99.9%)</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">二氧化硅含量≥99.9%的石英材料。关键性能：(1)热膨胀系数仅5.5×10⁻⁷/°C（钢的1/20），抗热震性极强；(2)介电强度≥30KV/mm，绝缘性能在高温下不衰减；(3)耐温-50~1350°C；(4)化学稳定性好，耐酸（除氢氟酸）。ZLDS-II高纯石英绝缘子用于火炬点火电极与金属结构之间的高压绝缘和机械支撑，在800-1200°C高温及火雨冲刷工况下不可替代。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">310S不锈钢 <span style="color:var(--gray-500);font-weight:400;">310S Stainless Steel</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">奥氏体耐热不锈钢，Cr 24-26%、Ni 19-22%。优异的高温性能：持续使用温度可达1150°C，抗高温氧化和硫化腐蚀性能优于304不锈钢。ZL-JTS阶梯式高空点火器壳体采用310S+304S组合——上部（近火炬头高温区）使用310S，下部使用304S兼顾成本。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">304不锈钢 <span style="color:var(--gray-500);font-weight:400;">304 Stainless Steel</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">最常用的奥氏体不锈钢，Cr 18-20%、Ni 8-10.5%。良好的综合性能：耐大气腐蚀、加工性好、成本适中。ZLH-GY-I防爆高压发生器壳体采用304不锈钢，满足常规工业环境需求。在含H₂S或盐酸的强腐蚀环境中建议升级为310S或316L。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">高温合金高压裸线 <span style="color:var(--gray-500);font-weight:400;">High-Temperature Alloy HV Bare Wire</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">用于传输7.5KV高压电能从地面高压发生器至火炬顶部点火电极的特种导线。承受火炬上部800-1200°C高温和火雨冲刷。ZL-GLX-II采用镍基高温合金材质，耐压30KV，耐温-40~1250°C。裸露设计（无绝缘层——因任何有机绝缘材料在此温度下均会失效），通过绝缘子保持与金属结构的电气隔离。</dd>
+      </div>
+    </dl>
+
+    <!-- 标准与规范 -->
+    <h2 id="standard" style="margin-top:40px;">六、标准与规范</h2>
+    <div class="line" style="width:60px;height:3px;background:var(--accent);border-radius:2px;margin-bottom:24px;"></div>
+
+    <dl class="glossary-list">
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">SH3009-2013</dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">中国石油化工行业标准《石油化工可燃气体排放设计规范》。核心要求：单支长明灯耗气量应控制在4Nm³/h以内；火炬系统应有可靠的常明火种和自动点火设施；火炬头应设置防风罩。中龙燃控ZL-HBJ-I实测耗气2.45Nm³/h，优于标准39%。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">GB 51029</dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">国家标准《火炬工程施工及验收规范》。规定了火炬系统从基础施工、塔架安装、筒体组对焊接、燃烧器安装到系统联调的全过程施工技术要求和验收标准。中龙燃控施工严格遵循此规范。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">GB 3836 系列</dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">国家标准《爆炸性环境》系列，等同于IEC 60079系列。第1部分：设备通用要求（GB 3836.1）；第2部分：由隔爆外壳"d"保护的设备（GB 3836.2）。中龙燃控防爆产品（ZLH-GY-I）依据此标准设计制造并通过国家防爆认证。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">Nm³/h <span style="color:var(--gray-500);font-weight:400;">标准立方米每小时</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">燃气流量的标准计量单位。指在标准状态（0°C、101.325kPa、1个标准大气压）下每小时流过的气体体积（立方米）。使用标准状态而非工作状态的目的是消除温度和压力对气体体积的影响，使不同工况下的流量具有可比性。火炬长明灯耗气量、燃料气流量均以此单位计量。</dd>
+      </div>
+
+      <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
+        <dt style="font-weight:700;font-size:1.05rem;">SHS 01031</dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">石油化工行业维护检修规程《火炬维护检修规程》。规定了火炬系统定期检查、维护保养和检修的内容、周期、方法和质量标准。中龙燃控火炬维修服务依据此规程执行，涵盖设备、电气、仪表三专业共18项服务内容。</dd>
+      </div>
+    </dl>
+
+    <div style="margin-top:48px;background:var(--gray-50);padding:24px;border-radius:var(--radius);text-align:center;">
+      <h3>未找到您需要的术语？</h3>
+      <p style="color:var(--gray-600);">本术语表持续更新。如需补充其他专业术语的解释，或需要定制化技术方案，请联系技术团队。</p>
+      <a href="contact.html" class="btn btn-primary" style="margin-top:12px;">联系我们</a>
+    </div>
+
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div><h4>濮阳中龙燃控设备有限公司</h4><p>高新技术企业，专注火炬燃烧与自动点火系统。</p></div>
+      <div><h4>快速导航</h4><a href="index.html">首页</a><br><a href="about.html">关于我们</a><br><a href="products.html">产品中心</a><br><a href="cases.html">工程案例</a><br><a href="faq/index.html">技术知识库</a><br><a href="glossary.html">术语表</a></div>
+      <div><h4>联系方式</h4><p><span class="icon-sm icon-phone"></span>0393-5389080</p><p><span class="icon-sm icon-phone"></span>15803939961</p><p><span class="icon-sm icon-email"></span>zhj15803939961@126.com</p></div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2010-2026 濮阳中龙燃控设备有限公司</p></div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
