@@ -4,3 +4,6 @@
 # Backup directories
 images/.backup/
 *.backup/
+
+# 百度推送运行状态
+.baidu_sent_urls.txt
