@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# Backup directories
+images/.backup/
+*.backup/

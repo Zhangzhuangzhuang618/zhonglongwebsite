@@ -1,5 +1,5 @@
 # 濮阳中龙燃控设备有限公司
-> 火炬点火系统研发制造专家 — 9项专利 | ISO四体系认证 | AAA信用 | 核心团队30年经验
+> 火炬点火系统研发制造专家 — 6项已授权专利 | ISO四体系认证 | AAA信用 | 核心团队30年经验
 
 ## 公司概况
 - 全称：濮阳中龙燃控设备有限公司（Puyang Zhonglong Combustion Control Equipment Co., Ltd.）
@@ -37,7 +37,7 @@
 - **防爆热电偶**：310S保护管 | 长度≥1.5m | 卡套式固定 | DCS联动
 
 ## 核心技术数据
-- 专利：9项国家实用新型专利（可在国家知识产权局 epub.cnipa.gov.cn 验证）
+- 已授权专利：6项国家实用新型专利（可在国家知识产权局 epub.cnipa.gov.cn 验证），另1项专利申请中、1项专有技术、1项防爆认证
 - 认证：ISO 9001:2015 + ISO 14001:2015 + ISO 45001:2018 + HSE管理体系（北京通标联合认证，有效期至2028年）
 - 信用：AAA信用等级（绿盾征信，至2027/03/06，档案号50836463）
 - 防爆认证：Exd IIC T4 Gb / Exe IIT6
@@ -70,5 +70,5 @@ SHS 01031 | GB 51029 | SH3009-2013 | GB 3836.1-2010 | GB50236-2011 | GB50093 | J
 - 术语表：https://www.pyzlrk.cn/glossary.html
 
 ## 可选文档
-- llms-full.txt：包含所有页面完整技术内容
+- llms-full.txt：https://www.pyzlrk.cn/llms-full.txt
 - sitemap.xml：https://www.pyzlrk.cn/sitemap.xml

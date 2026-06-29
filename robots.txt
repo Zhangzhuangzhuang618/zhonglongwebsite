@@ -17,5 +17,38 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+# Anthropic — Claude / Claude Code
+User-agent: Claude-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Perplexity — PerplexityBot
+User-agent: PerplexityBot
+Allow: /
+
+# ============================================================
+# 国内 AI 与搜索引擎
+# 字节跳动（豆包/头条）| 百度（文心一言）| 搜狗（腾讯生态）| 360 | DeepSeek | 神马（UC/夸克）
+# ============================================================
+User-agent: Bytespider
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Sogou web spider
+Allow: /
+
+User-agent: 360Spider
+Allow: /
+
+User-agent: DeepSeekBot
+Allow: /
+
+User-agent: YisouSpider
+Allow: /
+
 Sitemap: https://www.pyzlrk.cn/sitemap.xml
 Sitemap: https://www.pyzlrk.cn/image-sitemap.xml
