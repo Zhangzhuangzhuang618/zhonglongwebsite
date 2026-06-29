@@ -4,7 +4,7 @@
   <url>
     <loc>https://www.pyzlrk.cn/</loc>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/logo.jpg</image:loc>
+      <image:loc>https://www.pyzlrk.cn/images/logo.webp</image:loc>
       <image:title>中龙燃控 Logo</image:title>
       <image:caption>濮阳中龙燃控设备有限公司品牌标识</image:caption>
     </image:image>
@@ -12,80 +12,105 @@
   <url>
     <loc>https://www.pyzlrk.cn/products.html</loc>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/product-zl-jts.jpg</image:loc>
-      <image:title>ZL-JTS 阶梯式高空点火器</image:title>
-      <image:caption>双路7.5KV | 耐温-40~1250°C | 抗风≥12级 | 专利 ZL 2020 2 1157934.3</image:caption>
+      <image:loc>https://www.pyzlrk.cn/images/product-zl-jts.webp</image:loc>
+      <image:title>ZL-JTS- 阶梯式高空点火器</image:title>
+      <image:caption>气源1.0-0.6MPa | 能耗1.5~8Nm³/h | 30-185米高架火炬 | 抗风>=12级</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/product-zl-hbj-i.jpg</image:loc>
-      <image:title>ZL-HBJ-I 环保节能双配风混合长明灯</image:title>
-      <image:caption>文丘里引射原理 | 耗气4~6Nm³/h | 神华实测节能93.5% | 专利 ZL 2020 2 2537666.4</image:caption>
+      <image:loc>https://www.pyzlrk.cn/images/product-zl-yt-dhq-i.webp</image:loc>
+      <image:title>ZL-YT-DHQ-I 燃烧器一体化点火器</image:title>
+      <image:caption>输入24-220V | 输出7.5-11KV | 0.05-0.6MPa | 专利 ZL 2022 2 2686852.3</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/product-zlh-gy-i.jpg</image:loc>
-      <image:title>ZLH-GY-I 防爆高能发生器</image:title>
-      <image:caption>Exd IIC T4 Gb | AC220V/7.5KV | 304不锈钢 | IP54 | 国家防爆认证</image:caption>
+      <image:loc>https://www.pyzlrk.cn/images/product-zl-hb.webp</image:loc>
+      <image:title>ZL-HB- 环保节能长明灯</image:title>
+      <image:caption>文丘里引射原理 | 耗气1.5~8Nm³/h | 神华实测节能93.5%</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/product-zl-yt-dhq-i.jpg</image:loc>
-      <image:title>ZL-YT-DHQ-I 燃烧器一体化电点火器</image:title>
-      <image:caption>输入24-220V | 输出7.5-11KV | 专利 ZL 2022 2 2686852.3</image:caption>
+      <image:loc>https://www.pyzlrk.cn/images/product-zl-hbj-i.webp</image:loc>
+      <image:title>ZL-HBJ-I 双风线节能环保长明灯</image:title>
+      <image:caption>双风线结构 | 耗气4~16Nm³/h | 0.05-0.6MPa | 310S+304S</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/product-combined-pilot.jpg</image:loc>
-      <image:title>组合式一体化长明灯</image:title>
-      <image:caption>双重点火保障 | 自带小长明火种 | 专利 ZL 2022 2 22357637</image:caption>
+      <image:loc>https://www.pyzlrk.cn/images/product-zl-scm-i.webp</image:loc>
+      <image:title>ZL-SCM-I 组合式一体化点火长明灯</image:title>
+      <image:caption>气源0.1-0.6MPa | 能耗1.5~60Nm³/h | 60-150米高架火炬 | SCM-II配防堵备用分支喷咀</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/product-dual-air-pilot.jpg</image:loc>
-      <image:title>双风线长明灯</image:title>
-      <image:caption>双风线结构 | 耗气4~16Nm³/h | 专利 ZL 2020 2 2537666.4</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/product-zl-jn-iii.jpg</image:loc>
+      <image:loc>https://www.pyzlrk.cn/images/product-zl-jn-iii.webp</image:loc>
       <image:title>ZL-JN-III 节能型长明灯</image:title>
-      <image:caption>耗气1.5~36Nm³/h可选 | 多规格适配</image:caption>
+      <image:caption>耗气1.5~36Nm³/h可选 | 多规格适配 | 经济实用</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/product-zl-dmb-c.jpg</image:loc>
-      <image:title>ZL-DMB-C 火炬地面火球发射器</image:title>
-      <image:caption>地面内传焰点火 | 专利 ZL 2022 2 5476692.6</image:caption>
+      <image:loc>https://www.pyzlrk.cn/images/product-zl-gn-50.webp</image:loc>
+      <image:title>ZL-GN-50 / ZL-GN-25 防爆高能发生器</image:title>
+      <image:caption>输入220V | ZL-GN-50输出5000V | ZL-GN-25输出2500V</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/product-zl-gy-dhq-i.jpg</image:loc>
-      <image:title>ZL-GY-DHQ-I 燃烧器高压电弧枪</image:title>
-      <image:caption>适用锅炉及工业炉窑 | 专利 ZL 2022 2 2686854.2</image:caption>
+      <image:loc>https://www.pyzlrk.cn/images/product-zl-gy-ii.webp</image:loc>
+      <image:title>ZL-GY-II 增安型防爆高压发生器</image:title>
+      <image:caption>Exe IIT6 | AC220V±10%/7.5KV | 增安型防爆 | -40~60°C</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/product-zl-zwtc-i.jpg</image:loc>
-      <image:title>ZL-ZWTC-I 紫外火焰探测器</image:title>
-      <image:caption>探测5~200m | 4-20mA+开关量 | Exd II CT6 Gb</image:caption>
+      <image:loc>https://www.pyzlrk.cn/images/product-zl-dmb-c.webp</image:loc>
+      <image:title>ZL-DMB-C 地面爆燃点火器</image:title>
+      <image:caption>气源0.03-0.4MPa | 304S | -40~900°C | 能耗0.5~2Nm³/h</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/product-zlds-ii.jpg</image:loc>
-      <image:title>ZLDS-II 高纯石英绝缘子</image:title>
-      <image:caption>耐压30KV | 耐温-50~1350°C | SiO₂≥99.9%</image:caption>
+      <image:loc>https://www.pyzlrk.cn/images/product-zl-gy-dhq-i.webp</image:loc>
+      <image:title>ZL-GY-DHQ-I 燃烧器高能高压点火杆</image:title>
+      <image:caption>输入24-220V | 输出2.5-11KV | 专利 ZL 2022 2 2686854.2</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/product-zlh-gy-i-ii.jpg</image:loc>
-      <image:title>ZLH-GY-I-II 增安型防爆高能发生器</image:title>
-      <image:caption>Exe IIT6 | AC220V/7.5KV | 增安型防爆</image:caption>
+      <image:loc>https://www.pyzlrk.cn/images/product-zl-zwtc.webp</image:loc>
+      <image:title>ZL-ZWTC 紫外火焰监测器</image:title>
+      <image:caption>220VAC-220VDC | 干接点+4-20mA | -40~70°C | 炉膛/火炬 | IP66</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pyzlrk.cn/images/product-zlds-ii.webp</image:loc>
+      <image:title>ZL-DSY / ZLDS 石英绝缘子</image:title>
+      <image:caption>ZL-DSY-I/II/IV + ZLDS-III-I | 耐压30KV | 耐温-50~1350°C</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pyzlrk.cn/images/product-torch-burner.webp</image:loc>
+      <image:title>火炬燃烧器</image:title>
+      <image:caption>蒸汽助燃/空气助燃/多孔型 | 定制设计 | 310S/304S/Incoloy</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pyzlrk.cn/images/product-plc-control.webp</image:loc>
+      <image:title>火炬远程PLC控制软件</image:title>
+      <image:caption>根据现场参数定制</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pyzlrk.cn/images/product-plc-control-screen-1.webp</image:loc>
+      <image:title>火炬远程PLC控制软件上位机界面</image:title>
+      <image:caption>根据现场参数定制的火炬远程PLC控制软件界面</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pyzlrk.cn/images/product-plc-control-screen-2.webp</image:loc>
+      <image:title>火炬远程PLC控制软件监控界面</image:title>
+      <image:caption>火炬点火与监测系统上位机监控界面</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pyzlrk.cn/images/product-control-box.webp</image:loc>
+      <image:title>点火操作控制箱</image:title>
+      <image:caption>本地/远程控制 | 状态指示 | 防爆/非防爆可选</image:caption>
     </image:image>
   </url>
   <url>
     <loc>https://www.pyzlrk.cn/cases.html</loc>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/案例_煤气火炬燃烧器_酸性气火炬燃烧器_地面火炬.jpg</image:loc>
+      <image:loc>https://www.pyzlrk.cn/images/案例_煤气火炬燃烧器_酸性气火炬燃烧器_地面火炬.webp</image:loc>
       <image:title>煤气火炬与酸性气火炬燃烧器实景</image:title>
       <image:caption>高空点火器与长明灯现场安装实景照片</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/案例_氢氰酸火炬_高架火炬_长明灯火炬_系统图解.jpg</image:loc>
+      <image:loc>https://www.pyzlrk.cn/images/案例_氢氰酸火炬_高架火炬_长明灯火炬_系统图解.webp</image:loc>
       <image:title>氢氰酸火炬与高架火炬实景</image:title>
       <image:caption>火炬排放系统图解与锅炉探测器安装</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/火炬燃烧器实景.jpg</image:loc>
+      <image:loc>https://www.pyzlrk.cn/images/火炬燃烧器实景.webp</image:loc>
       <image:title>火炬燃烧器实景</image:title>
       <image:caption>各类火炬燃烧器现场运行状态</image:caption>
     </image:image>
@@ -93,22 +118,22 @@
   <url>
     <loc>https://www.pyzlrk.cn/strength.html</loc>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/cert-aaa-2026.jpg</image:loc>
+      <image:loc>https://www.pyzlrk.cn/images/cert-aaa-2026.webp</image:loc>
       <image:title>AAA信用等级证书 2026</image:title>
       <image:caption>中龙燃控AAA信用等级证书 | 绿盾征信（北京）有限公司颁发</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/cert-lixin-2026.jpg</image:loc>
+      <image:loc>https://www.pyzlrk.cn/images/cert-lixin-2026.webp</image:loc>
       <image:title>立信单位证书</image:title>
       <image:caption>中龙燃控立信单位证书 | 绿盾征信（北京）有限公司</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/宣传册_认证证书.jpg</image:loc>
+      <image:loc>https://www.pyzlrk.cn/images/宣传册_认证证书.webp</image:loc>
       <image:title>ISO体系认证证书</image:title>
       <image:caption>ISO 9001/14001/45001及HSE管理体系认证证书</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://www.pyzlrk.cn/images/宣传册_公司专利.jpg</image:loc>
+      <image:loc>https://www.pyzlrk.cn/images/宣传册_公司专利.webp</image:loc>
       <image:title>公司专利证书</image:title>
       <image:caption>中龙燃控9项国家实用新型专利证书</image:caption>
     </image:image>

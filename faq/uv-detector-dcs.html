@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>紫外火焰探测器怎么接入DCS系统？ | 接线与逻辑配置 | 中龙燃控</title>
-<meta name="description" content="紫外火焰探测器接入DCS系统的完整方案：4-20mA模拟量+开关量双重信号接线、与热电偶的'与'逻辑火焰确认、响应速度≤100ms、DCS画面组态建议。ZL-ZWTC探测器选型指南。">
-<meta name="keywords" content="紫外火焰探测器DCS接入,火焰探测器接线,热电偶与逻辑,火焰监测系统,DCS信号配置,中龙燃控">
+<title>紫外火焰监测器怎么接入DCS系统？ | 接线与逻辑配置 | 中龙燃控</title>
+<meta name="description" content="紫外火焰监测器接入DCS系统的完整方案：4-20mA模拟量+开关量双重信号接线、与热电偶的'与'逻辑火焰确认、响应速度≤100ms、DCS画面组态建议。ZL-ZWTC探测器选型指南。">
+<meta name="keywords" content="紫外火焰监测器DCS接入,火焰探测器接线,热电偶与逻辑,火焰监测系统,DCS信号配置,中龙燃控">
 <link rel="canonical" href="https://www.pyzlrk.cn/faq/uv-detector-dcs.html">
-<meta property="og:title" content="紫外火焰探测器怎么接入DCS？完整接线与逻辑配置指南">
+<meta property="og:title" content="紫外火焰监测器怎么接入DCS？完整接线与逻辑配置指南">
 <meta property="og:description" content="双重信号输出（4-20mA+开关量）接线、与热电偶'与'逻辑防误报、DCS画面组态建议。">
 <meta property="og:url" content="https://www.pyzlrk.cn/faq/uv-detector-dcs.html">
 <meta property="og:type" content="article">
@@ -20,9 +20,9 @@
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type":"Question","name":"紫外火焰探测器怎么接入DCS系统？","acceptedAnswer":{"@type":"Answer","text":"ZL-ZWTC紫外火焰探测器提供双重信号输出：(1)4-20mA模拟量——连续输出火焰强度信号，接入DCS AI卡件，可读取火焰大小趋势。(2)开关量（干接点）——继电器输出有火/无火状态，接入DCS DI卡件或直接接入ESD/SIS联锁逻辑。建议与热电偶配合使用：DCS取探测器开关量信号与热电偶温度信号的'与'逻辑作为火焰确认，确保无误报。"}},
+    {"@type":"Question","name":"紫外火焰监测器怎么接入DCS系统？","acceptedAnswer":{"@type":"Answer","text":"ZL-ZWTC紫外火焰监测器提供双重信号输出：(1)4-20mA模拟量——连续输出火焰强度信号，接入DCS AI卡件，可读取火焰大小趋势。(2)开关量（干接点）——继电器输出有火/无火状态，接入DCS DI卡件或直接接入ESD/SIS联锁逻辑。建议与热电偶配合使用：DCS取探测器开关量信号与热电偶温度信号的'与'逻辑作为火焰确认，确保无误报。"}},
     {"@type":"Question","name":"为什么紫外探测器要和热电偶配合使用？","acceptedAnswer":{"@type":"Answer","text":"热电偶响应慢（秒级）但可靠性极高——直接插入火焰中测量温度，几乎不会误报。紫外探测器响应极快（≤100ms）但单传感器在闪电、电焊等强紫外光源干扰下可能触发。两者互补：紫外探测器提供快速响应，热电偶提供可靠验证。DCS取两者'与'逻辑——紫外探测到火焰且热电偶温度达标（通常>400°C），才判定有火，彻底消除误报可能。"}},
-    {"@type":"Question","name":"I型和II型紫外探测器怎么选择？","acceptedAnswer":{"@type":"Answer","text":"ZL-ZWTC-I型：探测距离5~200m，视角90°，适用于60~150米高架火炬，远距离火焰监测。ZL-ZWTC-II型：探测距离5~100m，视角120°，适用于地面火炬、锅炉火焰监测，价格更经济。选择依据：高架火炬选I型，地面火炬/锅炉选II型。两者防爆等级均为Exd II CT6 Gb，防护等级IP66。"}}
+    {"@type":"Question","name":"ZL-ZWTC紫外火焰监测器参数怎么确认？","acceptedAnswer":{"@type":"Answer","text":"按最新产品图册，ZL-ZWTC紫外火焰监测器为统一图册型号，电源电压220VAC-220VDC，输出干接点和4-20mA模拟量信号，环境温度-40~70°C，检测范围覆盖炉膛、火炬，防护等级IP66。具体安装距离、视角和支架形式按现场火炬或炉膛参数定制确认。"}}
   ]
 }
 </script>
@@ -33,7 +33,7 @@
   "itemListElement": [
     {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://www.pyzlrk.cn/"},
     {"@type": "ListItem", "position": 2, "name": "技术知识库", "item": "https://www.pyzlrk.cn/faq/"},
-    {"@type": "ListItem", "position": 3, "name": "紫外火焰探测器DCS接入", "item": "https://www.pyzlrk.cn/faq/uv-detector-dcs.html"}
+    {"@type": "ListItem", "position": 3, "name": "紫外火焰监测器DCS接入", "item": "https://www.pyzlrk.cn/faq/uv-detector-dcs.html"}
   ]
 }
 </script>
@@ -41,15 +41,15 @@
 {
   "@context": "https://schema.org",
   "@type": "TechArticle",
-  "headline": "紫外火焰探测器DCS接入完整指南",
-  "description": "ZL-ZWTC紫外火焰探测器接入DCS系统的完整方案：4-20mA模拟量+开关量双重信号接线、与热电偶的'与'逻辑防误报配置、DCS画面组态建议。",
+  "headline": "紫外火焰监测器DCS接入完整指南",
+  "description": "ZL-ZWTC紫外火焰监测器接入DCS系统的完整方案：4-20mA模拟量+开关量双重信号接线、与热电偶的'与'逻辑防误报配置、DCS画面组态建议。",
   "author": {"@type": "Person", "name": "张海军", "jobTitle": "技术负责人", "description": "30年火炬点火系统经验"},
   "publisher": {"@type": "Organization", "@id": "https://www.pyzlrk.cn/#organization", "name": "濮阳中龙燃控设备有限公司"},
   "datePublished": "2026-06-17",
   "dateModified": "2026-06-17",
   "mainEntityOfPage": "https://www.pyzlrk.cn/faq/uv-detector-dcs.html",
   "proficiencyLevel": "Expert",
-  "about": ["紫外火焰探测器", "DCS接入", "4-20mA信号", "热电偶与逻辑", "火焰监测", "ZL-ZWTC"],
+  "about": ["紫外火焰监测器", "DCS接入", "4-20mA信号", "热电偶与逻辑", "火焰监测", "ZL-ZWTC"],
   "citation": [
     {"@type": "CreativeWork", "name": "GB 3836.1-2010 爆炸性环境设备通用要求"},
     {"@type": "CreativeWork", "name": "GB50093 自动化仪表工程施工质量验收规范"}
@@ -60,8 +60,8 @@
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "紫外火焰探测器DCS接入方法",
-  "description": "将ZL-ZWTC紫外火焰探测器接入DCS系统的完整步骤",
+  "name": "紫外火焰监测器DCS接入方法",
+  "description": "将ZL-ZWTC紫外火焰监测器接入DCS系统的完整步骤",
   "step": [
     {
       "@type": "HowToStep",
@@ -111,7 +111,7 @@
           <li><a href="../products.html#igniter">高空点火器</a></li>
           <li><a href="../products.html#pilot">节能长明灯</a></li>
           <li><a href="../products.html#generator">防爆高压发生器</a></li>
-          <li><a href="../products.html#ground">火焰探测器</a></li>
+          <li><a href="../products.html#ground">火焰监测器</a></li>
           <li><a href="../products.html#parts">绝缘子与配件</a></li>
           <li><a href="../products.html#custom">火炬系统定制</a></li>
         </ul>
@@ -139,7 +139,7 @@
 <main>
 <section class="page-banner">
   <div class="container">
-    <h1>紫外火焰探测器怎么接入DCS系统？</h1>
+    <h1>紫外火焰监测器怎么接入DCS系统？</h1>
     <div class="breadcrumb"><a href="../index.html">首页</a> / <a href="../faq/index.html">知识库</a> / 紫外探测器DCS接入</div>
   </div>
 </section>
@@ -148,7 +148,7 @@
   <div class="container" style="max-width:800px;">
     <h2>信号输出方式</h2>
     <div class="line" style="width:60px;height:3px;background:var(--accent);border-radius:2px;margin-bottom:24px;"></div>
-    <p><a href="../products/zl-zwtc.html">ZL-ZWTC紫外火焰探测器</a>提供<strong>双重信号输出</strong>，可同时接入DCS的AI卡件和DI卡件：</p>
+    <p><a href="../products/zl-zwtc.html">ZL-ZWTC紫外火焰监测器</a>提供<strong>双重信号输出</strong>，可同时接入DCS的AI卡件和DI卡件：</p>
 
     <div class="card-grid" style="margin-top:20px;">
       <div class="card">
@@ -215,16 +215,16 @@
     <div class="line" style="width:60px;height:3px;background:var(--accent);border-radius:2px;margin-bottom:24px;"></div>
     <div class="faq-list">
       <div class="faq-item">
-        <h3>紫外火焰探测器怎么接入DCS系统？</h3>
-        <p>ZL-ZWTC紫外火焰探测器提供双重信号输出：(1)4-20mA模拟量——连续输出火焰强度信号，接入DCS AI卡件，可读取火焰大小趋势。(2)开关量（干接点）——继电器输出有火/无火状态，接入DCS DI卡件或直接接入ESD/SIS联锁逻辑。建议与热电偶配合使用：DCS取探测器开关量信号与热电偶温度信号的'与'逻辑作为火焰确认，确保无误报。</p>
+        <h3>紫外火焰监测器怎么接入DCS系统？</h3>
+        <p>ZL-ZWTC紫外火焰监测器提供双重信号输出：(1)4-20mA模拟量——连续输出火焰强度信号，接入DCS AI卡件，可读取火焰大小趋势。(2)开关量（干接点）——继电器输出有火/无火状态，接入DCS DI卡件或直接接入ESD/SIS联锁逻辑。建议与热电偶配合使用：DCS取探测器开关量信号与热电偶温度信号的'与'逻辑作为火焰确认，确保无误报。</p>
       </div>
       <div class="faq-item">
         <h3>为什么紫外探测器要和热电偶配合使用？</h3>
         <p>热电偶响应慢（秒级）但可靠性极高——直接插入火焰中测量温度，几乎不会误报。紫外探测器响应极快（≤100ms）但单传感器在闪电、电焊等强紫外光源干扰下可能触发。两者互补：紫外探测器提供快速响应，热电偶提供可靠验证。DCS取两者'与'逻辑——紫外探测到火焰且热电偶温度达标（通常>400°C），才判定有火，彻底消除误报可能。</p>
       </div>
       <div class="faq-item">
-        <h3>I型和II型紫外探测器怎么选择？</h3>
-        <p>ZL-ZWTC-I型：探测距离5~200m，视角90°，适用于60~150米高架火炬，远距离火焰监测。ZL-ZWTC-II型：探测距离5~100m，视角120°，适用于地面火炬、锅炉火焰监测，价格更经济。选择依据：高架火炬选I型，地面火炬/锅炉选II型。两者防爆等级均为Exd II CT6 Gb，防护等级IP66。</p>
+        <h3>ZL-ZWTC紫外火焰监测器参数怎么确认？</h3>
+        <p>按最新产品图册，ZL-ZWTC紫外火焰监测器为统一图册型号，电源电压220VAC-220VDC，输出干接点和4-20mA模拟量信号，环境温度-40~70°C，检测范围覆盖炉膛、火炬，防护等级IP66。具体安装距离、视角和支架形式按现场火炬或炉膛参数定制确认。</p>
       </div>
     </div>
   </div>

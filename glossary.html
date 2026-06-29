@@ -40,7 +40,7 @@
     {"@type": "DefinedTerm", "name": "4-20mA模拟量信号", "description": "工业自动化中最常用的模拟量传输标准。4mA对应量程下限，20mA对应量程上限。ZL-ZWTC紫外探测器通过4-20mA信号连续输出火焰强度值至DCS AI卡件。"},
     {"@type": "DefinedTerm", "name": "开关量信号（Digital Signal）", "description": "仅有导通（ON）和断开（OFF）两种状态的信号。在火炬系统中，通常为继电器干接点输出，用于有火/无火状态判断，接入DCS DI卡件或直接参与联锁。"},
     {"@type": "DefinedTerm", "name": "热电偶（Thermocouple）", "description": "基于热电效应测量温度的传感器。火炬系统使用K型（镍铬-镍硅）热电偶，直接插入长明灯火焰中测量温度（通过热电偶保护管隔离），通过温度信号判断火焰有无。310S不锈钢保护管耐温≥1250°C。"},
-    {"@type": "DefinedTerm", "name": "紫外火焰探测器（UV Flame Detector）", "description": "通过检测火焰中紫外光谱（185~260nm波段）来判断火焰有无的探测器。响应速度≤100ms，探测距离5~200m，适用于高架火炬远距离火焰监测。ZL-ZWTC为隔爆型设计（Exd II CT6 Gb）。"},
+    {"@type": "DefinedTerm", "name": "紫外火焰监测器（UV Flame Detector）", "description": "通过检测火焰紫外信号来判断火焰有无的探测器。ZL-ZWTC图册参数为电源电压220VAC-220VDC，干接点和4-20mA模拟量输出，环境温度-40~70°C，检测范围覆盖炉膛、火炬，防护等级IP66。"},
     {"@type": "DefinedTerm", "name": "高纯石英（High-Purity Quartz）", "description": "SiO₂含量≥99.9%的石英材料。具有极低热膨胀系数（5.5×10⁻⁷/°C）、极高介电强度和优异耐高温性能（-50~1350°C），是火炬点火系统高压绝缘子的首选材料。陶瓷或普通玻璃无法替代。"},
     {"@type": "DefinedTerm", "name": "环氧树脂胶封（Epoxy Encapsulation）", "description": "将电气元件用环氧树脂完全灌封的防护工艺。阻止潮气和腐蚀性气体侵入，提高电气绝缘性能和机械强度。ZLH-GY-I防爆高压发生器内部采用全环氧树脂胶封。"},
     {"@type": "DefinedTerm", "name": "水封罐（Seal Drum）", "description": "火炬排放管线上利用水封阻止回火的设备。当排放气压力低于设定值时水封自动建立，防止空气倒流入火炬筒体形成爆炸性混合物。是火炬系统的关键安全设施。"},
@@ -81,7 +81,7 @@
           <li><a href="products.html#igniter">高空点火器</a></li>
           <li><a href="products.html#pilot">节能长明灯</a></li>
           <li><a href="products.html#generator">防爆高压发生器</a></li>
-          <li><a href="products.html#ground">火焰探测器</a></li>
+          <li><a href="products.html#ground">火焰监测器</a></li>
           <li><a href="products.html#parts">绝缘子与配件</a></li>
           <li><a href="products.html#custom">火炬系统定制</a></li>
         </ul>
@@ -175,7 +175,7 @@
 
       <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
         <dt style="font-weight:700;font-size:1.05rem;">文丘里引射 <span style="color:var(--gray-500);font-weight:400;">Venturi Ejector</span></dt>
-        <dd style="margin:8px 0 0;color:var(--gray-600);">利用文丘里管原理——高速燃气流经缩径段（喉部）时产生负压，自动吸入周围空气进行预混——提高燃烧效率的技术。ZL-HBJ-I环保节能双配风混合长明灯采用此原理，燃气与空气在喷口前完成预混，火焰呈粉蓝色（完全燃烧特征），耗气量可从老式长明灯的37.65Nm³/h降至2.45Nm³/h，节能93.5%。</dd>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">利用文丘里管原理——高速燃气流经缩径段（喉部）时产生负压，自动吸入周围空气进行预混——提高燃烧效率的技术。ZL-HBJ-I双风线节能环保长明灯采用此原理，燃气与空气在喷口前完成预混，火焰呈粉蓝色（完全燃烧特征），耗气量可从老式长明灯的37.65Nm³/h降至2.45Nm³/h，节能93.5%。</dd>
       </div>
 
       <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
@@ -271,8 +271,8 @@
       </div>
 
       <div class="glossary-item" style="margin-bottom:20px;padding:16px;background:#fff;border:1px solid var(--gray-200);border-radius:var(--radius);">
-        <dt style="font-weight:700;font-size:1.05rem;">紫外火焰探测器 <span style="color:var(--gray-500);font-weight:400;">UV Flame Detector</span></dt>
-        <dd style="margin:8px 0 0;color:var(--gray-600);">通过检测火焰中紫外光谱（185~260nm波段）来判断火焰有无的光电探测器。响应速度极快（≤100ms），探测距离5~200m，适用于高架火炬远距离火焰监测。优点：响应快、探测远；缺点：闪电、电焊弧光等强紫外源可能干扰。ZL-ZWTC为隔爆型设计（Exd II CT6 Gb），双重信号输出（4-20mA+开关量）。</dd>
+        <dt style="font-weight:700;font-size:1.05rem;">紫外火焰监测器 <span style="color:var(--gray-500);font-weight:400;">UV Flame Detector</span></dt>
+        <dd style="margin:8px 0 0;color:var(--gray-600);">通过检测火焰紫外信号来判断火焰有无的光电探测器。ZL-ZWTC图册参数为电源电压220VAC-220VDC，输出干接点和4-20mA模拟量信号，环境温度-40~70°C，检测范围覆盖炉膛、火炬，防护等级IP66。</dd>
       </div>
     </dl>
 
