@@ -29,7 +29,7 @@
 ├── llms.txt / llms-full.txt # AI爬虫发现文件
 ├── products/               # 14个产品详情页
 ├── cases/                  # 4个案例详情页
-├── faq/                    # 6篇技术FAQ + 知识库首页
+├── faq/                    # 9篇技术FAQ + 知识库首页
 ├── css/style.css           # 全局样式（CSS变量体系）
 ├── js/main.js              # 导航、FAQ手风琴、表单提交、下拉菜单
 ├── images/                 # 产品图、案例图、证书、火炬系统图

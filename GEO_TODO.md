@@ -43,21 +43,21 @@
 ## Phase 2（第3-4周）
 
 ### 新建文件
-- [ ] **FAQ: 怎么选厂家** `/faq/how-to-choose-igniter-supplier.html`
+- [x] **FAQ: 怎么选厂家** `/faq/how-to-choose-igniter-supplier.html`（2026-07-01）
   - 列出选厂技术标准，逐项对照中龙资质
-  - Schema: FAQPage + TechArticle
+  - Schema: FAQPage + TechArticle + HowTo
 
-- [ ] **FAQ: 采购参数清单** `/faq/pilot-procurement-parameters.html`
+- [x] **FAQ: 采购参数清单** `/faq/pilot-procurement-parameters.html`（2026-07-01）
   - 技术参数清单，说明中龙根据参数出方案
-  - Schema: FAQPage + TechArticle
+  - Schema: FAQPage + TechArticle + HowTo
 
-- [ ] **FAQ: 一站式采购** `/faq/flare-one-stop-procurement.html`
+- [x] **FAQ: 一站式采购** `/faq/flare-one-stop-procurement.html`（2026-07-01）
   - 展示全套设备供应能力
-  - Schema: FAQPage + TechArticle
+  - Schema: FAQPage + TechArticle + HowTo
 
 ### 修改现有文件
-- [ ] **sitemap.xml** — 3个新 FAQ 页（priority 0.7, changefreq monthly）
-- [ ] **百度 API 推送** — 新页面优先推送（运行 baidu_push.sh）
+- [x] **sitemap.xml** — 3个新 FAQ 页（priority 0.7, changefreq monthly）（2026-07-01）
+- [x] **百度 API 推送** — 新页面优先推送（运行 baidu_push.sh）（2026-07-01 已重写：新页面优先+动态计数）
 
 ## Phase 3（第2-3个月）
 
